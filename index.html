@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafael Mendes — Advogado Trabalhista e Previdenciário</title>
+    <meta name="description"
+        content="Escritório de Advocacia Online especializado em direitos trabalhistas e previdenciários. Agende sua consulta com o Dr. Rafael Mendes." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER / NAV ===== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="header__logo">
+                <span class="logo-icon">RM</span>
+                <div class="logo-text">
+                    <strong>RAFAEL MENDES</strong>
+                    <small>ADVOCACIA TRABALHISTA E PREVIDENCIÁRIA</small>
+                </div>
+            </a>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="header__nav" id="mainNav">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#blog">Blog</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#contato" class="btn btn--green header__cta">
+                AGENDAR UMA CONSULTA
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                    <path
+                        d="M12 0C5.373 0 0 5.373 0 12c0 2.146.564 4.16 1.55 5.902L.051 23.65a.5.5 0 00.598.598l5.748-1.499A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.94 0-3.79-.528-5.417-1.49a.5.5 0 00-.373-.055l-4.063 1.06 1.06-4.063a.5.5 0 00-.055-.373A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <p class="hero__subtitle">Advogado Trabalhista e Previdenciário</p>
+                <h1 class="hero__title">
+                    Escritório de Advocacia Online para te
+                    <span class="text-green">ajudar com a sua aposentadoria</span> ou
+                    <span class="text-green">seus direitos trabalhistas.</span>
+                </h1>
+                <div class="hero__buttons">
+                    <a href="#contato" class="btn btn--green btn--lg">
+                        FALE AGORA COM ADVOGADO
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12c0 2.146.564 4.16 1.55 5.902L.051 23.65a.5.5 0 00.598.598l5.748-1.499A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.94 0-3.79-.528-5.417-1.49a.5.5 0 00-.373-.055l-4.063 1.06 1.06-4.063a.5.5 0 00-.055-.373A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+                        </svg>
+                    </a>
+                    <a href="#servicos" class="btn btn--outline btn--lg">SAIBA SEUS DIREITOS</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <!-- 
+          =============================================
+          INSIRA A IMAGEM DO ADVOGADO AQUI
+          Recomendação: imagem PNG recortada (sem fundo)
+          Tamanho sugerido: 600×750px
+          =============================================
+        -->
+                <img src="images/advogado-hero.png" alt="Dr. Rafael Mendes — Advogado" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="sobre" id="sobre">
+        <div class="container sobre__inner">
+            <div class="sobre__image">
+                <!--
+          =============================================
+          INSIRA A FOTO DO ADVOGADO AQUI (seção Sobre)
+          Tamanho sugerido: 500×600px
+          =============================================
+        -->
+                <img src="images/advogado-sobre.jpg" alt="Dr. Rafael Mendes no escritório" />
+            </div>
+            <div class="sobre__content">
+                <span class="section-tag">Quem Somos</span>
+                <h2 class="section-title">Conheça o <span class="text-green">Dr. Rafael Mendes</span></h2>
+                <p>
+                    Com mais de 15 anos de experiência na área trabalhista e previdenciária, o Dr. Rafael Mendes
+                    já ajudou centenas de trabalhadores a conquistarem seus direitos. Formado pela Universidade de São
+                    Paulo
+                    e com pós-graduação em Direito do Trabalho, ele é reconhecido pela dedicação e resultados
+                    excepcionais.
+                </p>
+                <p>
+                    Nosso escritório oferece atendimento <strong>100% online</strong>, proporcionando praticidade e
+                    acessibilidade para clientes em todo o Brasil.
+                </p>
+                <div class="sobre__stats">
+                    <div class="stat">
+                        <span class="stat__number">500+</span>
+                        <span class="stat__label">Clientes Atendidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">95%</span>
+                        <span class="stat__label">Casos de Sucesso</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">15+</span>
+                        <span class="stat__label">Anos de Experiência</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <span class="section-tag section-tag--center">Áreas de Atuação</span>
+            <h2 class="section-title section-title--center">Nossos <span class="text-green">Serviços</span></h2>
+            <div class="servicos__grid">
+
+                <div class="card">
+                    <div class="card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Direito Trabalhista</h3>
+                    <p class="card__text">Rescisões, horas extras, assédio moral, FGTS, verbas rescisórias e demais
+                        direitos do trabalhador.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Aposentadoria</h3>
+                    <p class="card__text">Aposentadoria por idade, tempo de contribuição, invalidez e aposentadoria
+                        especial.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Benefícios do INSS</h3>
+                    <p class="card__text">Auxílio-doença, BPC/LOAS, pensão por morte, salário-maternidade e revisão de
+                        benefícios.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                            <path d="M16 3.13a4 4 0 010 7.75" />
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Ação Trabalhista</h3>
+                    <p class="card__text">Representação em ações judiciais contra empresas para garantir seus direitos
+                        trabalhistas.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="depoimentos" id="blog">
+        <div class="container">
+            <span class="section-tag section-tag--center">Depoimentos</span>
+            <h2 class="section-title section-title--center">O que nossos <span class="text-green">clientes dizem</span>
+            </h2>
+            <div class="depoimentos__grid">
+
+                <div class="testimonial">
+                    <div class="testimonial__stars">★★★★★</div>
+                    <p class="testimonial__text">"O Dr. Rafael resolveu meu caso de horas extras em poucos meses. Recebi
+                        tudo o que tinha direito. Super recomendo!"</p>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">MC</div>
+                        <div>
+                            <strong>Maria Costa</strong>
+                            <span>Ex-funcionária — Indústria</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial__stars">★★★★★</div>
+                    <p class="testimonial__text">"Consegui minha aposentadoria especial com a ajuda do escritório.
+                        Profissionalismo e atenção do início ao fim."</p>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">JS</div>
+                        <div>
+                            <strong>José Santos</strong>
+                            <span>Aposentado — Metalúrgico</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial__stars">★★★★★</div>
+                    <p class="testimonial__text">"Atendimento online rápido e eficiente. Nem precisei sair de casa para
+                        resolver meu caso no INSS."</p>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">AF</div>
+                        <div>
+                            <strong>Ana Ferreira</strong>
+                            <span>Beneficiária INSS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO / CTA ===== -->
+    <section class="contato" id="contato">
+        <div class="container contato__inner">
+            <div class="contato__info">
+                <span class="section-tag">Fale Conosco</span>
+                <h2 class="section-title">Agende sua <span class="text-green">Consulta Gratuita</span></h2>
+                <p>Tire suas dúvidas e saiba como podemos ajudar você a conquistar seus direitos. Atendimento 100%
+                    online, rápido e sem burocracia.</p>
+                <div class="contato__details">
+                    <div class="contato__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                    <div class="contato__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <span>contato@rafaelmendes.adv.br</span>
+                    </div>
+                    <div class="contato__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>São Paulo, SP — Atendimento Online</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contato__form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="nome" placeholder="Seu nome completo" required />
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="telefone" placeholder="Seu telefone / WhatsApp" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu e-mail" required />
+                </div>
+                <div class="form-group">
+                    <select id="assunto" required>
+                        <option value="" disabled selected>Selecione o assunto</option>
+                        <option value="trabalhista">Direito Trabalhista</option>
+                        <option value="aposentadoria">Aposentadoria</option>
+                        <option value="inss">Benefícios INSS</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensagem" rows="4" placeholder="Descreva resumidamente seu caso..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn--green btn--full">ENVIAR MENSAGEM</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="#" class="header__logo">
+                    <span class="logo-icon">RM</span>
+                    <div class="logo-text">
+                        <strong>RAFAEL MENDES</strong>
+                        <small>ADVOCACIA TRABALHISTA E PREVIDENCIÁRIA</small>
+                    </div>
+                </a>
+                <p class="footer__desc">Seu escritório de advocacia online focado em direitos trabalhistas e
+                    previdenciários.</p>
+            </div>
+            <div class="footer__links">
+                <h4>Links Rápidos</h4>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#blog">Depoimentos</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer__links">
+                <h4>Serviços</h4>
+                <a href="#servicos">Direito Trabalhista</a>
+                <a href="#servicos">Aposentadoria</a>
+                <a href="#servicos">Benefícios INSS</a>
+                <a href="#servicos">Ação Trabalhista</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2026 Rafael Mendes Advocacia. Todos os direitos reservados. | OAB/SP 000.000</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FAB ===== -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-fab" aria-label="Fale pelo WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.146.564 4.16 1.55 5.902L.051 23.65a.5.5 0 00.598.598l5.748-1.499A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.94 0-3.79-.528-5.417-1.49a.5.5 0 00-.373-.055l-4.063 1.06 1.06-4.063a.5.5 0 00-.055-.373A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
