@@ -534,15 +534,14 @@ a {
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 10px 40px rgba(0, 0, 0, .6));
+    transition: filter .4s ease;
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     animation: heroImgIn 1.2s ease-out .2s both, heroFloat 6s ease-in-out 1.5s infinite;
 }
 
 .hero__image:hover img {
-    animation-play-state: paused;
-    transform: scale(1.03);
-    transition: transform .4s ease;
+    filter: drop-shadow(0 14px 46px rgba(0, 0, 0, .65));
 }
 
 /* Entrance animation */
